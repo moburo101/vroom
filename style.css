@@ -1,0 +1,106 @@
+body{
+    font-family: 'Inter';
+    margin: 0;
+    background-color: #335281;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 45%;
+    gap: 0;
+    padding-left: 0;
+}
+
+.logo{
+    margin-left: 60px;
+    color: white;
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: 300;
+    border-bottom: solid black 3px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.book-now{
+    padding: 10px 11px;
+    color: #fffcfc;
+    background-color: transparent;
+    border-radius: 38px;
+    transition: all 0.3s;
+}
+
+.book-now:hover{
+    color: #4ac036;
+}
+
+h1{
+    text-align: center;
+    font-family: 'lao MN';
+    font-weight: 400;
+    line-height: 106px;
+    font-size: 77px;
+    margin-top: 202px;
+    margin-bottom: 0;
+}
+
+p{
+    font-weight: 400;
+    text-align: center;
+    width: 1307px;
+    line-height: 38px;
+    font-size: 31px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.b-btn{
+    margin-left: 500px;
+    margin-top: 180px;
+    text-transform: uppercase;
+    width: 600px;
+}
+
+.b-btn a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.g-btn{
+    background-color: #4ac036;
+    transition: all 0.3s;
+}
+
+.g-btn:hover{
+    border: solid 2px #4ac036;
+    background-color: transparent;
+}
+
+.s-a-d{
+    margin-left: 154px;
+    transition: all 0.3s;
+}
+
+.s-a-d:hover{
+    color: #4ac036;
+}
